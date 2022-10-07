@@ -1,2 +1,2 @@
-# portifolio
- Meu primeiro portifólio que vai sendo atualizado conforme evoluo.
+# portfolio
+ Meu primeiro portfólio que vai sendo atualizado conforme evoluo.
