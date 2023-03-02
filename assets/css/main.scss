@@ -1,24 +1,43 @@
 @import 'variables';
 @import 'base';
 
-.container {
-    background-color: $color-two;
-    width: 80vw;
-    padding: 20px;
-    border-radius: $radius;
+body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
-    p {
-        font-size: 1.2rem;
-        font-weight: bold;
-        text-align: center;
+    .container {
+        background-color: $color-two;
+        width: 80vw;
+        padding: 20px;
+        border-radius: $radius;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        img {
+            max-width: 90%;
+            margin: 20px 0px;
+        }
     }
 
-    img {
-        max-width: 90%;
-        margin: 20px 0px;
+    footer {
+        
+
+        a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            width: auto;
+            height: 40px;
+            background-color: $color-three;
+            text-align: center;
+        }
     }
 }

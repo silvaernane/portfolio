@@ -17,7 +17,11 @@ body {
   align-items: center;
 }
 
-.container {
+body {
+  display: flex;
+  flex-direction: column;
+}
+body .container {
   background-color: #c72b41;
   width: 80vw;
   padding: 20px;
@@ -27,12 +31,21 @@ body {
   justify-content: center;
   align-items: center;
 }
-.container p {
+body .container p {
   font-size: 1.2rem;
   font-weight: bold;
   text-align: center;
 }
-.container img {
+body .container img {
   max-width: 90%;
   margin: 20px 0px;
+}
+body footer a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  width: auto;
+  height: 40px;
+  background-color: #800834;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
